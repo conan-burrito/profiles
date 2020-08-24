@@ -4,6 +4,7 @@ include(default)
 os=iOS
 os.version=9.0
 arch=armv7
+compiler.cppstd=17
 
 [build_requires]
 *: darwin-toolchain/1.0.8@conan-burrito/stable
