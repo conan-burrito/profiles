@@ -7,8 +7,8 @@ arch=armv7
 compiler.cppstd=17
 
 [build_requires]
-*: darwin-toolchain/1.0.9@conan-burrito/stable
-&: darwin-toolchain/1.0.9@conan-burrito/stable
+*: darwin-toolchain/1.0.10@conan-burrito/stable
+&: darwin-toolchain/1.0.10@conan-burrito/stable
 
 [options]
 darwin-toolchain:hidden_visibility=False
